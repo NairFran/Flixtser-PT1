@@ -70,4 +70,9 @@ class TracksViewController: UIViewController, UITableViewDataSource {
 
 
     @IBOutlet weak var tableView: UITableView!
+    
+//
+//        let backgroundGradient = LinearGradient(
+//            colors: [Color.red, Color.blue],
+//            startPoint: .top, endPoint: .bottom)
 }

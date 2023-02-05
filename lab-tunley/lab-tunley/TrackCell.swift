@@ -22,8 +22,8 @@ class TrackCell: UITableViewCell {
     }
     
     func configure(with track: Track) {
-        trackNameLabel.text = track.trackName
-        artistNameLabel.text = track.artistName
+        trackNameLabel.text = track.original_title
+        artistNameLabel.text = track.overview
 
         // Load image async via Nuke library image loading helper method
         Nuke.loadImage(with: track.artworkUrl100, into: trackImageView)
